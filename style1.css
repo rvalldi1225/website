@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    font-family: 'Segoe UI', sans-serif;
+  background-image: url('BG1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  line-height: 1.6;
+  min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;   /* horizontal */
+    align-items: center;       /* vertical */
+    height: 200px;             /* kasih tinggi dulu */
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: rgb(230, 155, 70);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+
+  
