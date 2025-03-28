@@ -49,19 +49,22 @@ nav ul li a {
 
 /* Hero Section */
 #hero {
-    background: #0099ff;
-    color: white;
+    background-image: url('bgin.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 24rem 0;
 }
 
 #hero h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 }
 
 #hero p {
-    font-size: 1.3rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
 }
 
